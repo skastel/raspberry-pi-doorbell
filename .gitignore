@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+*.mp3
+config.yaml
+

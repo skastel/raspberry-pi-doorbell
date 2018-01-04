@@ -1,0 +1,20 @@
+#
+# Rename this file to config.yaml once you've filled in your settings
+#
+twilio:
+  account_id: '' # Twilio account ID
+  auth_token: '' # Twilio API auth token
+  phone_number: '' # Twilio account phone number
+
+doorbell:
+  notification_text: "Ding dong! There's someone at the front door!"
+  volume: 0.4
+  gpio_channel: 4
+  gpio_debounce_ms: 20
+  recipients:
+    - '+15555555555' # Must register with Twilio first
+  hostname: '' # IP address of pi
+  port: '' # webcam port
+  start_hour: 8
+  end_hour: 22
+  timezone: 'US/Pacific'
